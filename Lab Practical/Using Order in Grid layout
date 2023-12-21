@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bootstrap Order with Borders</title>
+<!-- Include Bootstrap CSS -->
+<link rel="stylesheet" 
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.
+css">
+<style>
+/* Custom CSS for column borders */
+.bordered-col {
+border: 1px solid #ccc;
+padding: 15px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Bootstrap Order with Borders</h1>
+<div class="row">
+<div class="col-md-4 order-2 bordered-col">Column 1 (Order 2)</div>
+<div class="col-md-4 order-1 bordered-col">Column 2 (Order 1)</div>
+<div class="col-md-4 order-3 bordered-col">Column 3 (Order 3)</div>
+</div>
+</div>
+<!-- Include Bootstrap JS (optional) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script 
+src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.mi
+n.js"></script>
+<script 
+src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+></script>
+</body>
+</html>
